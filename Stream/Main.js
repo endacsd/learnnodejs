@@ -40,7 +40,7 @@ console.log('end');
 //
 
 
-data = 'endablog: https://endacsd.com'
+data = 'endablog: https://endacsd.com';
 var writableStream =fs.createWriteStream('output.txt');
 
 writableStream.write(data,'utf8');
@@ -56,5 +56,7 @@ writableStream.on('error',function (err) {
 });
 
 console.log('end');
+
+//
 
 
